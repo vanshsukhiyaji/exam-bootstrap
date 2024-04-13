@@ -1,0 +1,13 @@
+.title{
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    
+}
+
+h1{
+    font-family: var(--font);
+}
+
+h4{
+    font-family: var(--font1);
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap-exam</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="asset/CSS/style.css">
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="asset/CSS/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- main-banner start -->
+    <section class="main-banner">
+        <div id="banner" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active "></button>
+                <button type="button" data-bs-target="#banner" data-bs-slide-to="1" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img h-100">
+                        <img src="asset/img/main-1.jpg" class="d-block w-100 h-25" alt="...">
+                    </div>
+                    <div class="title carousel-caption align-items-center pb-5">
+                        <h4 class="text-warning">Furniture Sofa</h4>
+                        <h1 class="fw-bolder ">Interior Design in Home</h1>
+                        <button class="btn btn-warning ">Purchase</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img h-100">
+                        <img src="asset/img/Slider6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="title carousel-caption align-items-center pb-5">
+                        <h4 class="text-warning">Furniture Sofa</h4>
+                        <h1 class="fw-bolder ">Interior Designer</h1>
+                        <button class="btn btn-warning ">Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main-banner end -->
+
+    <!-- faq start -->
+    <div class="accordion container pt-5 " id="faq">
+        <H2 class="text-center pb-3 ">Frequently Asked Questions</H2>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#que-1">
+                    <H5>What is Bootstrap?</H5>
+                </button>
+            </h2>
+            <div id="que-1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    <P>
+                        Bootstrap is a popular open-source front-end CSS framework that provides a
+                        collection of pre-designed responsive UI components, layout tools, and styles for building
+                        web applications and websites.
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#que-2">
+                    <H5>How do you include Bootstrap in your project?</H5>
+                </button>
+            </h2>
+            <div id="que-2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    <P>
+                        You can include Bootstrap in your project by adding the Bootstrap CSS and
+                        JavaScript files to your HTML. You can either download the files or link to them via a content
+                        delivery network (CDN).
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#que-3">
+                    <H5>What is a responsive design in the context of Bootstrap?</H5>
+                </button>
+            </h2>
+            <div id="que-3" class="accordion-collapse collapse" data-bs-parent="#faq">
+                <div class="accordion-body">
+                    <P>
+                        Responsive design in Bootstrap refers to the framewors ability to automatically
+                        adjust and optimize the layout and appearance of a website or application based on the
+                        screen size and device, ensuring a consistent and user-friendly experience on various
+                        devices.
+                    </P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faq end -->
+
+    <!-- blog start -->
+    <section class="blog pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 pt-lg-2 ">
+                    <div class="card">
+                        <div class="img-fluid">
+                           <a href=""><img src="asset/img/blog-1.jpg" alt="" class="w-100"></a>
+                        </div>
+                        <div class="content">
+                            <h2 class="border-bottom p-2">Furniture</h2>
+                            <p class="p-2 ">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores omnis deleniti quam, facere saepe mollitia ullam repudiandae eligendi dolorum sit nobis iure in repellat ab tempora aut voluptates laboriosam.
+                            </p>
+                            <div class="button p-2 ">
+
+                                <button class="btn btn-primary">read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-lg-5 ">
+                    <div class="card">
+                        <div class="img-fluid">
+                           <a href=""><img src="asset/img/blog-2.jpg" alt="" class="w-100 "></a>
+                        </div>
+                        <div class="content">
+                            <h2 class="border-bottom p-2">Furniture</h2>
+                            <p class="p-2 ">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores omnis deleniti quam, facere saepe mollitia ullam repudiandae eligendi dolorum sit nobis iure in repellat ab tempora aut voluptates laboriosam.
+                            </p>
+                            <div class="button p-2 ">
+
+                                <button class="btn btn-primary">read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="img-fluid">
+                           <a href=""><img src="asset/img/blog-3.jpg" alt="" class="w-100"></a>
+                        </div>
+                        <div class="content">
+                            <h2 class="border-bottom p-2">Furniture</h2>
+                            <p class="p-2 ">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem dolores omnis deleniti quam, facere saepe mollitia ullam repudiandae eligendi dolorum sit nobis iure in repellat ab tempora aut voluptates laboriosam.
+                            </p>
+                            <div class="button p-2 ">
+
+                                <button class="btn btn-primary">read more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bootstrap js -->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
